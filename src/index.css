@@ -431,6 +431,9 @@ a {
     width: 80px;
     color: var(--VeryDarkBlueLightModeText);
   }
+  .border-list.darkmode li {
+    color: var(--WhiteDarkModeTextLightModeElements);
+  }
   .border {
     font-size: 1.5rem;
   }
