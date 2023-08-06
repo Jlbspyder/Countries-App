@@ -32,6 +32,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Jlbspyder)
-- Twitter - [@yourusername](https://www.twitter.com/jlbspyder)
+- Frontend Mentor - [@Jlbspyder](https://www.frontendmentor.io/profile/Jlbspyder)
+- Twitter - [@jlbspyder](https://www.twitter.com/jlbspyder)
 
