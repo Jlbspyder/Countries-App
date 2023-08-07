@@ -50,7 +50,7 @@ const Country = ({ lightMode }) => {
                 </ul>
                 <ul className="right-list">
                   <li>
-                    <span>Top Level Domain:</span> {}
+                    <span>Top Level Domain:</span> {item.tld.map(elem => elem)}
                   </li>
                   <li>
                     <span>Currencies:</span> {}
