@@ -80,7 +80,6 @@ const Countries = ({ lightMode }) => {
               defaultValue=""
               name="countries"
               className={lightMode ? "filter" : "filter darkmode"}
-              value={regions.name}
               onChange={(e) => filter(e.target.value)}
             >
               <option hidden value="">
