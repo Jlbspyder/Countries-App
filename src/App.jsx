@@ -7,10 +7,16 @@ import Country from "./components/Country";
 function App() {
   const [lightMode, setLightMode] = useState(true);
   const handleMode = () => {
-    const toggle = document.querySelector(".toggle-mode");
+   const toggle = document.querySelector(".toggle-mode");
     toggle.addEventListener("click", () => {
-      document.body.classList.toggle("darkmode");
-      setLightMode((prev) => !prev);
+      if (lightMode) {
+        document.body.classList.add("darkmode");
+        setLightMode(false);
+      }
+      if (!lightMode) {
+        document.body.classList.remove("darkmode");
+        setLightMode(true);
+      }
     });
   };
   return (
