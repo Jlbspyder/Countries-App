@@ -74,7 +74,7 @@ body.darkmode {
 .wrapper {
   height: 300px;
   display: flex;
-  width: 250px;
+  width: 270px;
   flex-direction: column;
   border-radius: 10px;
   background: var(--WhiteDarkModeTextLightModeElements);
@@ -255,7 +255,7 @@ a {
     padding-inline: 3rem;
   }
   .wrapper {
-    margin-bottom: 3rem;
+    margin: 0rem auto 3rem auto ;
   }
   .pix {
     width: 100%;
@@ -350,6 +350,9 @@ a {
     grid-template-columns: repeat(2, 1fr);
     padding-inline: 4rem;
   } 
+  .wrapper {
+    margin: auto;
+  }
   .heading {
     width: 95%;
     margin: auto;
