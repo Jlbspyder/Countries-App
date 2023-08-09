@@ -53,10 +53,20 @@ const Country = ({ lightMode }) => {
                     <span>Top Level Domain:</span> {item.tld.map(elem => elem)}
                   </li>
                   <li>
-                    <span>Currencies:</span> {}
+                    <span>Currencies: </span> 
+                    {Object.entries(item && item?.currencies).map(([key, value], index, arr) => (
+                      <span className="lang" key={index}>
+                        {key} {index !== arr.length - 1 ? ", " : ""}
+                      </span>
+                    ))} 
                   </li>
                   <li>
-                    <span>Languages:</span> {}
+                    <span>Languages: </span> 
+                     {Object.entries(item && item?.languages).map(([_, value], index, arr) => (
+                      <span className="lang" key={index}>
+                        {value}{index !== arr.length - 1 ? ", " : ""}
+                      </span>
+                    ))}
                   </li>
                 </ul>
               </div>
