@@ -255,6 +255,7 @@ a {
     padding-inline: 3rem;
   }
   .wrapper {
+    width: 300px;
     margin: 0rem auto 3rem auto ;
   }
   .pix {
