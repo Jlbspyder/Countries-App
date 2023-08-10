@@ -125,6 +125,9 @@ a {
 .info-page__title {
   width: 50%;
 }
+.border {
+  width: 150px;
+}
 .border-country {
   display: flex;
   align-items: center;
@@ -452,6 +455,7 @@ a {
   .border {
     margin: 0 0 1rem 0;
     font-size: 2.5rem;
+    width: 300px;
   }
 }
 @media (min-width: 950px) and (max-width: 1200px) {
