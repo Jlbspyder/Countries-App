@@ -56,7 +56,7 @@ const Country = ({ lightMode }) => {
                     <span>Currencies: </span> 
                     {Object.entries(item && item?.currencies).map(([key, value], index, arr) => (
                       <span className="lang" key={index}>
-                        {key} {index !== arr.length - 1 ? ", " : ""}
+                        {key} {index !== arr.length - 1 ? ", " : "."}
                       </span>
                     ))} 
                   </li>
@@ -64,7 +64,7 @@ const Country = ({ lightMode }) => {
                     <span>Languages: </span> 
                      {Object.entries(item && item?.languages).map(([_, value], index, arr) => (
                       <span className="lang" key={index}>
-                        {value}{index !== arr.length - 1 ? ", " : ""}
+                        {value}{index !== arr.length - 1 ? ", " : "."}
                       </span>
                     ))}
                   </li>
