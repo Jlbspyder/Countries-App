@@ -347,6 +347,9 @@ a {
   }
 }
 @media (min-width: 600px) and (max-width: 950px) {
+   h1 {
+    font-size: 2.8rem;
+  }
   .grid {
     grid-template-columns: repeat(3, 1fr);
     padding-inline: 4rem;
@@ -413,11 +416,11 @@ a {
   }
   .left-list li {
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .right-list li {
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .right-list {
     margin-left: 0;
@@ -429,7 +432,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin: 0 0 3rem -11rem;
-    width: 670px;
+    width: 720px;
   }
   .border-list {
     padding: 0;
@@ -447,7 +450,8 @@ a {
     color: var(--WhiteDarkModeTextLightModeElements);
   }
   .border {
-    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 950px) and (max-width: 1200px) {
