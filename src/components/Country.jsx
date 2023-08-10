@@ -59,7 +59,7 @@ const Country = ({ lightMode }) => {
                         const { name, symbol } = value;
                         return (
                           <span className="lang" key={index}>
-                            {name} ({symbol})
+                            {name}, ({symbol})
                             {index !== arr.length - 1 ? "," : "."}
                           </span>
                         );
