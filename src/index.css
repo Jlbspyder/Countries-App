@@ -432,7 +432,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     margin: 0 0 3rem -11rem;
-    width: 700px;
+    width: 670px;
   }
   .border-list {
     padding: 0;
@@ -442,7 +442,7 @@ a {
     gap: 1rem;
   }
   .border-list li {
-    padding: 0.8em 1.8em;
+    padding: 0.8em 1.5em;
     width: 80px;
     color: var(--VeryDarkBlueLightModeText);
   }
