@@ -54,19 +54,28 @@ const Country = ({ lightMode }) => {
                   </li>
                   <li>
                     <span>Currencies: </span> 
-                    {Object.entries(item && item?.currencies).map(([key, value], index, arr) => (
-                      <span className="lang" key={index}>
-                        {key} {index !== arr.length - 1 ? ", " : "."}
-                      </span>
-                    ))} 
+                     {Object.entries(item && item?.currencies).map(
+                      ([_, value], index, arr) => {
+                        const { name, symbol } = value;
+                        return (
+                          <span className="lang" key={index}>
+                            {name} ({symbol})
+                            {index !== arr.length - 1 ? "," : "."}
+                          </span>
+                        );
+                      }
+                    )}
                   </li>
                   <li>
                     <span>Languages: </span> 
-                     {Object.entries(item && item?.languages).map(([_, value], index, arr) => (
-                      <span className="lang" key={index}>
-                        {value}{index !== arr.length - 1 ? ", " : "."}
-                      </span>
-                    ))}
+                     {Object.entries(item && item?.languages).map(
+                      ([_, value], index, arr) => (
+                        <span className="lang" key={index}>
+                          {value}
+                          {index !== arr.length - 1 ? ", " : "."}
+                        </span>
+                      )
+                    )}
                   </li>
                 </ul>
               </div>
