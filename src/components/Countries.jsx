@@ -3,7 +3,7 @@ import Nation from "./Nation";
 import { BsSearch } from "react-icons/bs";
 
 const Countries = ({ lightMode }) => {
-  const [search, setSearch] = useState("");
+  const [countries, setCountries] = useState([]);
   const regions = [
     {
       name: "Africa",
