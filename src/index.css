@@ -399,6 +399,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: -5rem 0 0 -11rem;
+    width: 700px;
   }
   .info-list {
     display: flex;
@@ -407,6 +408,7 @@ a {
   }
   .left-list {
     padding-left: 0;
+    width: 700px;
   }
   .left-list li {
     margin-bottom: 0.5rem;
