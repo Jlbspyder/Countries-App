@@ -29,10 +29,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: var(--LightModeBackground);
+  transition: all 0.2s ease-in-out;
 }
 body.darkmode {
   background: var(--DarkModeBackground);
   color: var(--WhiteDarkModeTextLightModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .container {
   max-width: 1200px;
@@ -40,10 +42,12 @@ body.darkmode {
 }
 .header {
   border-bottom: 1px solid hsl(0, 1%, 83%);
+  transition: all 0.2s ease-in-out;
 }
 .header.darkmode {
   border-bottom: none;
   background: var(--DarkBlueDarkModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .heading {
   display: flex;
@@ -72,7 +76,7 @@ body.darkmode {
   border-top-right-radius: 10px;
 }
 .wrapper {
-  height: 300px;
+  height: 310px;
   display: flex;
   width: 270px;
   flex-direction: column;
@@ -80,9 +84,11 @@ body.darkmode {
   background: var(--WhiteDarkModeTextLightModeElements);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   animation: zoom 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .wrapper.darkmode {
   background: var(--DarkBlueDarkModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .wrapper:hover {
   background: hsl(0, 1%, 70%, 0.2);
@@ -96,11 +102,15 @@ body.darkmode {
 }
 .flag {
   width: 100%;
-  height: 150px;
+  height: 160px;
 }
 .country-info {
   padding: 0;
   margin-top: -1rem;
+}
+h4 {
+  margin-block: 5px;
+  font-weight: 100;
 }
 span {
   font-weight: 600;
@@ -146,9 +156,11 @@ a {
   width: 50px;
   text-align: center;
   border-radius: 2px;
+  transition: all 0.2s ease-in-out;
 }
 .darkmode li {
   background: var(--DarkBlueDarkModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .info-list {
   display: flex;
@@ -176,12 +188,14 @@ a {
   border: 1px solid hsl(0, 1%, 83%);
   border-radius: 3px;
   color: var(--DarkGrayLightModeInput);
+  transition: all 0.2s ease-in-out;
 }
 .btn.darkmode {
   background: var(--DarkModeBackground);
   box-shadow: rgba(11, 10, 16, 0.15) 0px 48px 100px 0px;
   border: 1px solid hsl(0, 6%, 7%);
   color: var(--WhiteDarkModeTextLightModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .btn:hover {
   background: hsla(0, 1%, 70%, 0.2);
@@ -203,10 +217,12 @@ a {
   border-radius: 3px;
   width: 390px;
   color: var(--DarkGrayLightModeInput);
+  transition: all 0.2s ease-in-out;
 }
 .input.darkmode {
   background: var(--DarkBlueDarkModeElements);
   color: var(--WhiteDarkModeTextLightModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .filter {
   padding: 0.7em 1em;
@@ -217,11 +233,13 @@ a {
   width: 200px;
   border-radius: 5px;
   color: var(--DarkGrayLightModeInput);
+  transition: all 0.2s ease-in-out;
 }
 .filter.darkmode {
   background: var(--DarkBlueDarkModeElements);
   border: none;
   color: var(--WhiteDarkModeTextLightModeElements);
+  transition: all 0.2s ease-in-out;
 }
 .filter:focus, .input:focus {
   outline: none;
@@ -233,10 +251,12 @@ a {
   padding: 0.5em 1em;
   border-radius: 3px;
   border-radius: 5px;
+  transition: all 0.2s ease-in-out;
 }
 .search.darkmode {
   background: var(--DarkBlueDarkModeElements);
   border: none;
+  transition: all 0.2s ease-in-out;
 }
 .search-icon {
   margin-left: 1rem;
