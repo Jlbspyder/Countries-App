@@ -9,18 +9,18 @@ const Nation = ({ flags, name, population, region, capital, mode }) => {
           <img src={flags.svg} alt="" className="pix" />
         </div>
         <div className="country">
-          <h4>{name.common}</h4>
-          <ul className="country-info">
-            <li>
+          <h3>{name.common}</h3>
+          <div className="country-info">
+            <h4>
               <span>Population:</span> {population.toLocaleString()}
-            </li>
-            <li>
+            </h4>
+            <h4>
               <span>Region:</span> {region}
-            </li>
-            <li>
+            </h4>
+            <h4>
               <span>Capital:</span> {capital}
-            </li>
-          </ul>
+            </h4>
+          </div>
         </div>
       </div>
     </Link>
