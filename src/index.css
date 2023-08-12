@@ -370,6 +370,7 @@ a {
   }
   .border {
     font-size: large;
+    margin-bottom: 1rem;
   }
   .error {
     color: red;
