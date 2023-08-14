@@ -379,7 +379,7 @@ a {
 }
 @media (min-width: 600px) and (max-width: 950px) {
    h1 {
-    font-size: 2.8rem;
+    font-size: 4rem;
   }
    h3 {
     font-size: 1.3rem;
@@ -461,7 +461,7 @@ a {
     font-size: 2.5rem;
   }
   .right-list {
-    margin-left: 0;
+    margin: 5rem 0 5rem 0;
     padding-left: 0;
     width: 100%;
   }
@@ -489,7 +489,7 @@ a {
     color: var(--WhiteDarkModeTextLightModeElements);
   }
   .border {
-    margin: 0 0 1rem 0;
+    margin: 0 0 2rem 0;
     font-size: 2.5rem;
     width: 300px;
   }
