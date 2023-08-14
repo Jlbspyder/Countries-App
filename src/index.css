@@ -396,6 +396,9 @@ a {
    h3 {
     font-size: 1.3rem;
   }
+   .header-title {
+    font-size: 1.8rem;
+  }
   .toggle-mode {
     font-size: 1.8rem;
   }
