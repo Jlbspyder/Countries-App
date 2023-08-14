@@ -6,7 +6,7 @@ const Header = ({ mode, lightMode }) => {
     <header className={lightMode ? "header" : "header darkmode"}>
       <div className="container">
         <div className="heading">
-          <h3>Where in the world?</h3>
+          <h3 className="header-title">Where in the world?</h3>
           <div className="toggle-mode" onClick={mode}>
             {lightMode ? <BsMoon /> : <BsMoonFill />}
             Dark Mode
