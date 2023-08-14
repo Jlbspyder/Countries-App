@@ -350,7 +350,7 @@ a {
     align-items: flex-start;
   }
   .left-list {
-    padding-left: 0;
+    margin-bottom: 3rem;
     width: 100%;
   }
   .left-list li {
