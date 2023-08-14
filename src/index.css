@@ -275,6 +275,14 @@ a {
     opacity: 1;
   }
 }
+@keyframes moveIn {
+  0% {
+    transform: scale(0.97);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width:600px) {
   .container {
     width: 100%;
