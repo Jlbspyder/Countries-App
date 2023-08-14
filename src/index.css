@@ -58,13 +58,14 @@ body.darkmode {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin-right: 0.5rem;
   font-weight: 600;
   cursor: pointer;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   padding-top: 2rem;
 }
 .pix {
@@ -83,7 +84,6 @@ body.darkmode {
   border-radius: 10px;
   background: var(--WhiteDarkModeTextLightModeElements);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  animation: zoom 0.5s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .wrapper.darkmode {
@@ -92,6 +92,7 @@ body.darkmode {
 }
 .wrapper:hover {
   background: hsl(0, 1%, 70%, 0.2);
+  animation: moveIn 0.5s ease-in-out;
 }
 .country {
   display: flex;
@@ -203,6 +204,7 @@ a {
 .form {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   margin-top: 2rem;
 }
 .form-control {
@@ -226,6 +228,7 @@ a {
 }
 .filter {
   padding: 0.7em 1em;
+  margin-right: 0.5rem;
   background: var(--WhiteDarkModeTextLightModeElements);
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border: 1px solid hsl(0, 1%, 83%);
@@ -390,7 +393,7 @@ a {
   .grid {
     grid-template-columns: repeat(3, 1fr);
     padding-inline: 4rem;
-    gap: 1rem;
+    gap: 2rem;
   } 
   .wrapper {
     width: 200px;
