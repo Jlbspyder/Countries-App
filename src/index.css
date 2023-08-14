@@ -179,6 +179,7 @@ a {
 }
 .right-list li {
   background: transparent;
+  margin-left: -2rem;
 }
 .btn {
   display: inline-block;
