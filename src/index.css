@@ -390,6 +390,7 @@ a {
   .grid {
     grid-template-columns: repeat(3, 1fr);
     padding-inline: 4rem;
+    gap: 1rem;
   } 
   .wrapper {
     width: 200px;
